@@ -17,7 +17,7 @@ int main()
     // [](){}; // this is valid expression but we are not doing anything
     //{} is block where we write code
     // [](){cout << "Hello" <<endl;}; // this is valid expression but we are not running this code yet.
-    // if we look close, above expression looks like a function defination. instead of return time and function name we have [].
+    // if we look close, above expression looks like a function defination. instead of return type and function name we have [].
 
     // we can store the lambda expression to a auto variable and call.
     auto func = [](){cout << "Hello" <<endl;}; // return type depends on lambda exp. better to use auto with lambda to avoid issues.
