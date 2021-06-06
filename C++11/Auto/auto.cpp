@@ -27,7 +27,7 @@ auto test2() -> decltype(get()) // use decltype with auto to determine return ty
 {
     return get();
 }
-
+/*
 class test3
 {
 int a;
@@ -41,7 +41,7 @@ static int print() {
 private:
     int get() { return a;}
 };
-
+*/
 int main()
 {
     auto value = 7;
